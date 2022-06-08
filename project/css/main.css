@@ -1,0 +1,54 @@
+/*Прижатие футера*/
+* {
+margin: 0;
+padding: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+display: flex;
+flex-direction: column;
+min-height: 100%;
+}
+.content {
+flex: 1 0 auto;
+}
+.footer {
+flex: 0 0 auto;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+    list-style-type: none;
+    font-size: 30px;
+    color: gray;
+}
+
+
+.menu_link{
+    text-decoration: none;
+    color: darkgray;
+}
+
+.menu_link:hover{
+    text-decoration: none;
+    color: black;
+}
+
+h{
+    font-size: 50px;
+}
+
+.footer{
+    text-align: center;
+    color: slategray;
+}

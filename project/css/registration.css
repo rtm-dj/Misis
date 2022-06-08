@@ -1,0 +1,16 @@
+
+.form {
+    background-color: aliceblue;
+    margin: 15px;
+    padding: 15px;
+}
+
+.form li{
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.form li input{
+    margin-left: 20px;
+    
+}
