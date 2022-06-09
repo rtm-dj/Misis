@@ -3,14 +3,33 @@
     background-color: aliceblue;
     margin: 15px;
     padding: 15px;
+    border-radius: 10px;
 }
 
 .form li{
     margin-bottom: 20px;
     list-style-type: none;
+    font-size: 20px;
 }
 
 .form li input{
-    margin-left: 20px;
-    
+    display: flex;
+    border-radius: 10px;
+    border-color: gray;
+    border-style: dotted;
+    padding: 5px;
+    width: 300px;
+}
+
+.button{
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    width: 90px;
+}
+
+.button:hover{
+    padding: 5px;
+    background-color: gainsboro;
+    border-radius: 10px;
 }

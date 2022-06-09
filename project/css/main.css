@@ -27,7 +27,6 @@ html{
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    text-align: center;
     list-style-type: none;
     font-size: 30px;
     color: gray;
@@ -44,8 +43,16 @@ html{
     color: black;
 }
 
-h{
+.headline{
+    margin-top: 20px;
     font-size: 50px;
+    text-align: center;
+}
+
+.headline p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px; 
 }
 
 .footer{
